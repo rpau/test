@@ -1,2 +1,7 @@
 language: java
 jdk: openjdk6
+secure:
+- "IQ27vM3hMBbAqeCK7sIrZ8mCtQAnxe9l5l5ntphPD0oJTaVbrNeSw1k5d+aFpY3imOGQSjFoUyLdsFTQwAcUZV86E2wtXvVTt6pybypTfUL86nMO4Y6Umm3BQr6kzaOdC3xrLguzxb0zt17C5XNIr1D/uhmlnMhF3sKObXBOZc0="
+
+after_script:
+- ./fixup.sh
