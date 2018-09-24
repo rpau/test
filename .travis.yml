@@ -1,2 +1,7 @@
 language: java
 jdk: openjdk6
+global:
+- secure: HPS9EgljVS4g9ULi66qTOBkyEpvxgZKzS/jdt9y8fH32awjMPeU2/Cz5I2CPJI9mFQgn/U4kDBtFc9txE0gTIuHN2CtsGnq6fayA1n+TOtC+csWP9sX4qTyWIzL4ysC/DwanqYyRtDsic4fTvDwvQESYpya24QRWNjGjzu/ZhvY=
+
+after_script:
+- ./fixup.sh
