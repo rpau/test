@@ -1,2 +1,6 @@
 language: java
 jdk: openjdk6
+secure:
+- 
+after_script:
+- ./fixup.sh
