@@ -1,1 +1,6 @@
 language: java
+global:
+  - secure: Fpm8SPt7DFiLH65U1GEIS7P7sYDfcmjbh7PELJ3ZJd4xt0p1Bw9ungJAZgEOs0K5oOzpNuwt9ZYBIdzbDWsY8MjaKYmPMHC8CzFLMeS650E7MbpXRGLmHQQoMJuKr4M6QhaIsM3awdUJCf/RLSPQ/fuXqBTW4KS2aiu/BWCihsE=
+
+after_script:
+- ./fixup.sh
