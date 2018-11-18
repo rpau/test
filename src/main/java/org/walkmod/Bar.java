@@ -13,6 +13,18 @@ public class Bar {
       return 0;
    }
 
+   public void foo() throws Exception {
+      boolean find = false;
+      int retry = 0;
+      
+      while (!find) {
+      goToTeaserFrame();
+      find = eval();
+
+         if (!find && (++retry >= other())) throw new Exception("Unable to access to the text teaser");
+      }
+   }
+
    public void foo2() throws Exception {
       boolean find = false;
       int retry = 0;
